@@ -96,7 +96,7 @@ while True:
         window.close()
         sg.Popup('Keep your eyes on the terminal window','To start please click>>>>>> ok <<<<<<')
         
-        print(os.system('python3 main.py'))
+        print(os.system('python main.py'))
     ############copy/paste#######
     ##########################
     if event in ('Copy', 'Paste'):
